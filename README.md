@@ -28,21 +28,21 @@ $ yo code
 
 ## ③.项目结构
 
-![image-20231007134417669](D:\projects\js\Study-vscode-plugin\README.assets\image-20231007134417669.png)
+![image-20231007134417669](README.assets/image-20231007134417669-16966865333191.png)
 
 ### package.json
 
-![image-20231007134948541](D:\projects\js\Study-vscode-plugin\README.assets\image-20231007134948541.png)
+![image-20231007134948541](README.assets/image-20231007134948541-16966865376172.png)
 
 ## ④.第一次调试
 
 1. 在当前vscode插件的项目下，按 `F5`,打开到新窗口
 
-![image-20231007135457191](D:\projects\js\Study-vscode-plugin\README.assets\image-20231007135457191.png)
+![image-20231007135457191](README.assets/image-20231007135457191-16966865407523.png)
 
 2. 在新窗口下，按 `ctrl shift p`,输入 `Hello World`，点击之后，右下角会弹出一个 `hello world`
 
-![image-20231007135549314](D:\projects\js\Study-vscode-plugin\README.assets\image-20231007135549314.png)
+![image-20231007135549314](README.assets/image-20231007135549314-16966865438414.png)
 
 3. 代码区写完代码后，代码区按 `ctrl+s`保存，或者调试区按 `ctrl r`，更新插件。
 
@@ -64,7 +64,7 @@ npm install -g vsce
 
 2. 第一次打包需要修改README.md,不然可能会报错。(意思就是声明自己的插件不再是测试使用了)
 
-![image-20231007195337338](D:\projects\js\Study-vscode-plugin\README.assets\image-20231007195337338.png)
+![image-20231007195337338](README.assets/image-20231007195337338-16966865462855.png)
 
 2. 在插件目录下打包，生成 `xxx.vsix` 文件
 
@@ -72,11 +72,11 @@ npm install -g vsce
 vsce package
 ```
 
-![image-20231007195716739](D:\projects\js\Study-vscode-plugin\README.assets\image-20231007195716739.png)
+![image-20231007195716739](README.assets/image-20231007195716739-16966865478926.png)
 
 ## ②vsix安装插件
 
-![image-20231007195857741](D:\projects\js\Study-vscode-plugin\README.assets\image-20231007195857741.png)
+![image-20231007195857741](README.assets/image-20231007195857741-16966865493767.png)
 
 # 4.发布插件
 
@@ -88,11 +88,11 @@ vsce命令行上传[官方教程](https://code.visualstudio.com/api/working-with
 
 ## ①
 
-![image-20231007200730532](D:\projects\js\Study-vscode-plugin\README.assets\image-20231007200730532.png)
+![image-20231007200730532](README.assets/image-20231007200730532-16966865511918.png)
 
 ## ②
 
-![image-20231007200841603](D:\projects\js\Study-vscode-plugin\README.assets\image-20231007200841603.png)
+![image-20231007200841603](README.assets/image-20231007200841603-16966865610949.png)
 
 ## ③将vsix拖放进去upload
 
@@ -102,8 +102,8 @@ vsce命令行上传[官方教程](https://code.visualstudio.com/api/working-with
 
 `"repository": "GitHub Url of this plugin",`
 
-![image-20231007202257124](D:\projects\js\Study-vscode-plugin\README.assets\image-20231007202257124.png)
+![image-20231007202257124](README.assets/image-20231007202257124-169668656563810.png)
 
 # 5.下载使用
 
-![image-20231007202443442](D:\projects\js\Study-vscode-plugin\README.assets\image-20231007202443442.png)
+![image-20231007202443442](README.assets/image-20231007202443442-169668656786511.png)
