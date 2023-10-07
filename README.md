@@ -1,6 +1,4 @@
-# vscode-plugin 简单使用
-
-学习开发vscode插件
+# vscode 插件简单开发使用
 
 # 1.Hello vscode
 
